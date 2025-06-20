@@ -1,0 +1,7 @@
+{
+  "name": "vtiger/vtigercrm",
+  "description": "Genius for en-stock with vtiger engine",
+  "require": {
+    "php": "^8.3"
+  }
+}
