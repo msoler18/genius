@@ -77,7 +77,7 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'https://genius-en-stock.herokuapp.com/';
+$site_URL = 'https://genius-en-stock-6138de8d49b8.herokuapp.com/';
 
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
