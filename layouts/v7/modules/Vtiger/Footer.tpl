@@ -9,9 +9,8 @@
 
 <footer class="app-footer">
 	<p>
-		Powered by vtiger CRM - {$VTIGER_VERSION}&nbsp;&nbsp;© 2004 - {date('Y')}&nbsp;&nbsp;
-		<a href="//www.vtiger.com" target="_blank">Vtiger</a>&nbsp;|&nbsp;
-		<a href="https://www.vtiger.com/privacy-policy" target="_blank">Privacy Policy</a>
+		Genius {$VTIGER_VERSION}&nbsp;&nbsp;© 2015 - {date('Y')}&nbsp;&nbsp;
+		<a href="https://www.promocionalesenstock.com/ target="_blank">En-stock</a>
 	</p>
 </footer>
 </div>
