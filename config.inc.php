@@ -44,17 +44,15 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
-$dbconfig['db_server'] = 'localhost';
-$dbconfig['db_port'] = ':8889';
-$dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = 'root';
-$dbconfig['db_name'] = 'development';
-$dbconfig['db_type'] = 'mysqli';
-$dbconfig['db_status'] = 'true';
-
-// TODO: test if port is empty
-// TODO: set db_hostname dependending on db_type
+$dbconfig['db_server']   = 'h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$dbconfig['db_port']     = ':3306';
+$dbconfig['db_username'] = 'eysxw6zi5nxj5k8j';
+$dbconfig['db_password'] = 'woial8mglv2km7sc';
+$dbconfig['db_name']     = 'lrebfyuc5t1i732v';
+$dbconfig['db_type']     = 'mysqli';
+$dbconfig['db_status']   = 'true';
 $dbconfig['db_hostname'] = $dbconfig['db_server'].$dbconfig['db_port'];
+
 
 // log_sql default value = false
 $dbconfig['log_sql'] = false;
@@ -79,9 +77,8 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost:8888/demo/';
+$site_URL = 'https://genius-en-stock.herokuapp.com/';
 
-// url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
 $root_directory = '/Applications/MAMP/htdocs/demo/';
