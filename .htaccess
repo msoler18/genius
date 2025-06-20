@@ -4,7 +4,6 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Evitar bucles de redirección
 RewriteCond %{REQUEST_URI} !^/index\.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -19,9 +18,3 @@ RewriteRule ^(.*)$ index.php?$1 [L,QSA]
     Order allow,deny
     Allow from all
 </Files>
-
-php_value upload_max_filesize 50M
-php_value post_max_size 50M
-php_value max_execution_time 1800
-php_value max_input_time 1800
-php_value memory_limit 256M
