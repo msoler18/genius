@@ -11,12 +11,15 @@
 {strip}
 	<style>
 		body {
-			background: url(layouts/v7/resources/Images/login-background.jpg);
-			background-position: center;
-			background-size: cover;
 			width: 100%;
-			background-repeat: no-repeat;
+      background-color:#fcfafa;
 		}
+    .loginPageContainer {
+      padding:20rem 0;
+    }
+    .forgotPasswordLink {
+      display:none;
+    }
 		hr {
 			margin-top: 15px;
 			background-color: #7C7C7C;
@@ -166,7 +169,7 @@
 			outline: 0;
 		}
 		.buttonBlue {
-			background-image: linear-gradient(to bottom, #35aa47 0px, #35aa47 100%)
+			background-image: linear-gradient(to bottom, #c61218 0px, #c61218 100%)
 		}
 		.ripples {
 			position: absolute;
