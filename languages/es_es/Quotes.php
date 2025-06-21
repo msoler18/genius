@@ -23,6 +23,8 @@ $languageStrings = array(
     'Rejected'                     => 'Rechazada',
     'Related To'                   => 'Relacionado con',
     'LBL_THIS'                     => 'Esta',
+    'Open Quotes'                  => 'Cotizaciones abiertas',
+    'Rejected Quotes'              => 'Cotizaciones rechazadas',
     'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'ha sido eliminada del sistema. Por favor, elimina o reemplaza este ítem',
     'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Este elemento de línea ha sido eliminado del sistema. Por favor, elimina este elemento',
 );

@@ -52,6 +52,8 @@ $languageStrings = array(
     'Other Phone'                => 'Teléfono secundario',
     'Phone'                      => 'Teléfono principal',
     'Email'                      => 'Correo electrónico principal',
+    'Prospect Accounts'          => 'Cuentas Prospecto',
+    'New This Week'              => 'Nuevas de la semana',
 );
 $jsLanguageStrings = array(
     'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => '¿Estás seguro de que quieres eliminar este registro relacionado?',

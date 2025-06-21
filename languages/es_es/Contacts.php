@@ -62,6 +62,8 @@ $languageStrings = array(
     'Email'                       => 'Correo electrónico principal',
     'Secondary Email'             => 'Correo electrónico secundario',
     'LBL_TRANSACTIONS'            => 'Transacciones',
+    'Todays Birthday'             => 'Cumpleaños hoy',
+    'Contacts Address'            => 'Dirección del Contacto',
 );
 $jsLanguageStrings = array(
     // Sin cadenas JS en este módulo
