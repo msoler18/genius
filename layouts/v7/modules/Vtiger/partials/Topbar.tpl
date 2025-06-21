@@ -24,7 +24,9 @@
 						<div class="logo-container col-sm-3 col-xs-9">
 							<div class="row">
 								<a href="index.php" class="company-logo">
-									<img src="{$COMPANY_LOGO->get('imagepath')}" alt="{$COMPANY_LOGO->get('alt')}"/>
+									<img 
+                    src="https://images-enstock.s3.us-east-2.amazonaws.com/en_stock_genius_logo.png" 
+                    alt="En-stock-genius-logo"/>
 								</a>
 							</div>
 						</div>  
