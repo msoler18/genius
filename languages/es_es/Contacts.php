@@ -8,63 +8,61 @@
  * Portions created by JPL TSolucio, S.L. are Copyright (C) jpl tsolucio.
  * All Rights Reserved.
  * ********************************************************************************
- *  Language     : Español es_es
+ *  Language     : Español (Colombia) es_co
  *  Version      : 6.0.0
  *  Created Date : 2012-10-25
  *  Author       : JPL TSolucio, S. L. Joe Bordes
- *  Last change  : 2013-05-03
- *  Author       : JPL TSolucio, S. L. Joe Bordes
+ *  Last change  : 2025-06-21
+ *  Author       : Ajustado por experto en vtiger
  ************************************************************************************/
 $languageStrings = array(
-	'Contacts'                     => 'Contactos',
-	'SINGLE_Contacts'              => 'Contacto',
-	'LBL_ADD_RECORD'               => 'Añadir Contacto',
-	'LBL_RECORDS_LIST'             => 'Lista de Contactos',
-	'LBL_CONTACT_INFORMATION'      => 'Datos Personales',
-	'LBL_CUSTOMER_PORTAL_INFORMATION' => 'Información Portal Cliente',
-	'LBL_IMAGE_INFORMATION'        => 'Imagen del Contacto',
-	'Office Phone'                 => 'Teléfono Empresa',
-	'Home Phone'                   => 'Teléfono Particular',
-	'Title'                        => 'Título',
-	'Department'                   => 'Departamento',
-	'Birthdate'                    => 'Fecha de Nacimiento',
-	'Reports To'                   => 'Informa a',
-	'Assistant'                    => 'Asistente',
-	'Assistant Phone'              => 'Teléfono de Asistente',
-	'Do Not Call'                  => 'No Llamar por Teléfono',
-	'Reference'                    => 'Referencias',
-	'Portal User'                  => 'Usuario de Portal',
-	'Mailing Street'               => 'Dirección (Factura)',
-	'Mailing City'                 => 'Población (Factura)',
-	'Mailing State'                => 'Provincia (Factura)',
-	'Mailing Zip'                  => 'Código Postal (Factura)',
-	'Mailing Country'              => 'País (Factura)',
-	'Mailing Po Box'               => 'Apdo de Correos (Factura)',
-	'Other Street'                 => 'Dirección (Envío)',
-	'Other City'                   => 'Población (Envío)',
-	'Other State'                  => 'Provincia (Envío)',
-	'Other Zip'                    => 'Código Postal (Envío)',
-	'Other Country'                => 'País (Envío)',
-	'Other Po Box'                 => 'Apdo de Correos (Envío)',
-	'Contact Image'                => 'Imagen del Contacto',
-	'Mr.'                          => 'Sr.',
-	'Ms.'                          => 'Sra.',
-	'Mrs.'                         => 'Srta.',
-	'Dr.'                          => 'Dr.',
-	'Prof.'                        => 'Prof.',
-	'User List'                    => 'Lista de Usuarios',
-	'LBL_COPY_OTHER_ADDRESS' => 'Copiar Dirección Alternativa',
-	'LBL_COPY_MAILING_ADDRESS' => 'Copiar Dirección Envío',
-	'Contact Id' => 'Contacto Id',
-    'Support Start Date'           => 'Support Start Date',
-    'Support End Date'             => 'Support End Date',
-
-  'Other Phone' => 'Teléfono Secundario',
-  'Email' => 'De Correo Electrónico Principal',
-  'Secondary Email' => 'Correo Electrónico Secundaria',
-  'LBL_TRANSACTIONS' => 'Las transacciones',
-
+    'Contacts'                    => 'Contactos',
+    'SINGLE_Contacts'             => 'Contacto',
+    'LBL_ADD_RECORD'              => 'Añadir contacto',
+    'LBL_RECORDS_LIST'            => 'Lista de contactos',
+    'LBL_CONTACT_INFORMATION'     => 'Detalles del contacto',
+    'LBL_CUSTOMER_PORTAL_INFORMATION' => 'Información portal cliente',
+    'LBL_IMAGE_INFORMATION'       => 'Imagen del contacto',
+    'Office Phone'                => 'Teléfono empresa',
+    'Home Phone'                  => 'Teléfono personal',
+    'Title'                       => 'Cargo',
+    'Department'                  => 'Departamento',
+    'Birthdate'                   => 'Fecha de nacimiento',
+    'Reports To'                  => 'Reporta a',
+    'Assistant'                   => 'Asistente',
+    'Assistant Phone'             => 'Teléfono de asistente',
+    'Do Not Call'                 => 'No llamar',
+    'Reference'                   => 'Referencia',
+    'Portal User'                 => 'Usuario portal',
+    'Mailing Street'              => 'Dirección facturación',
+    'Mailing City'                => 'Ciudad facturación',
+    'Mailing State'               => 'Departamento facturación',
+    'Mailing Zip'                 => 'Código postal facturación',
+    'Mailing Country'             => 'País facturación',
+    'Mailing Po Box'              => 'Apartado postal facturación',
+    'Other Street'                => 'Dirección envío',
+    'Other City'                  => 'Ciudad envío',
+    'Other State'                 => 'Departamento envío',
+    'Other Zip'                   => 'Código postal envío',
+    'Other Country'               => 'País envío',
+    'Other Po Box'                => 'Apartado postal envío',
+    'Contact Image'               => 'Imagen del contacto',
+    'Mr.'                         => 'Sr.',
+    'Ms.'                         => 'Sra.',
+    'Mrs.'                        => 'Srta.',
+    'Dr.'                         => 'Dr.',
+    'Prof.'                       => 'Prof.',
+    'User List'                   => 'Lista de usuarios',
+    'LBL_COPY_OTHER_ADDRESS'      => 'Copiar dirección alternativa',
+    'LBL_COPY_MAILING_ADDRESS'    => 'Copiar dirección facturación',
+    'Contact Id'                  => 'ID de contacto',
+    'Support Start Date'          => 'Fecha inicio soporte',
+    'Support End Date'            => 'Fecha fin soporte',
+    'Other Phone'                 => 'Teléfono secundario',
+    'Email'                       => 'Correo electrónico principal',
+    'Secondary Email'             => 'Correo electrónico secundario',
+    'LBL_TRANSACTIONS'            => 'Transacciones',
 );
-
 $jsLanguageStrings = array(
+    // Sin cadenas JS en este módulo
 );

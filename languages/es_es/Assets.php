@@ -8,30 +8,30 @@
  * Portions created by JPL TSolucio, S.L. are Copyright (C) jpl tsolucio.
  * All Rights Reserved.
  * ********************************************************************************
- *  Language     : Español es_es
+ *  Language     : Español (Colombia) es_co
  *  Version      : 6.0.0
  *  Created Date : 2012-10-25
  *  Author       : JPL TSolucio, S. L. Joe Bordes
- *  Last change  : 2013-05-03
- *  Author       : JPL TSolucio, S. L. Joe Bordes
+ *  Last change  : 2025-06-21
+ *  Author       : Ajustado por experto en vtiger
  ************************************************************************************/
 $languageStrings = array(
-	'Assets'                       => 'Recursos',
-	'SINGLE_Assets'                => 'Recurso',
-	'LBL_ADD_RECORD'               => 'Añadir Recurso',
-	'LBL_RECORDS_LIST'             => 'Lista de Recursos',
-	'LBL_ASSET_INFORMATION'        => 'Detalles de Recurso',
-	'Asset No'                     => 'Número Recurso',
-	'Serial Number'                => 'Número serie',
-	'Date Sold'                    => 'Fecha venta',
-	'Date in Service'              => 'Fecha instalación',
-	'Tag Number'                   => 'Etiquetado',
-	'Invoice Name'                 => 'Referencia Factura',
-	'Shipping Method'              => 'Forma de envío',
-	'Shipping Tracking Number'     => 'Número seguimiento envío',
-	'Asset Name'                   => 'Nombre Recurso',
-	'Customer Name'                => 'Adquirido por',
-	'Notes'                        => 'Notas',
-	'In Service'                   => 'En Servicio',
-	'Out-of-service'               => 'Fuera de servicio',
+    'Assets'                    => 'Activos',
+    'SINGLE_Assets'             => 'Activo',
+    'LBL_ADD_RECORD'            => 'Añadir activo',
+    'LBL_RECORDS_LIST'          => 'Lista de activos',
+    'LBL_ASSET_INFORMATION'     => 'Detalle del activo',
+    'Asset No'                  => 'Número de activo',
+    'Serial Number'             => 'Número de serie',
+    'Date Sold'                 => 'Fecha de venta',
+    'Date in Service'           => 'Fecha de instalación',
+    'Tag Number'                => 'Número de etiqueta',
+    'Invoice Name'              => 'Referencia de factura',
+    'Shipping Method'           => 'Método de envío',
+    'Shipping Tracking Number'  => 'Número de seguimiento',
+    'Asset Name'                => 'Nombre del activo',
+    'Customer Name'             => 'Cliente',
+    'Notes'                     => 'Notas',
+    'In Service'                => 'En servicio',
+    'Out-of-service'            => 'Fuera de servicio',
 );

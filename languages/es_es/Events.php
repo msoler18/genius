@@ -8,78 +8,90 @@
  * Portions created by JPL TSolucio, S.L. are Copyright (C) jpl tsolucio.
  * All Rights Reserved.
  * ********************************************************************************
- *  Language     : Español es_es
+ *  Language     : Español (Colombia) es_co
  *  Version      : 6.0.0
  *  Created Date : 2012-10-25
  *  Author       : JPL TSolucio, S. L. Joe Bordes
- *  Last change  : 2013-05-03
- *  Author       : JPL TSolucio, S. L. Joe Bordes
+ *  Last change  : 2025-06-21
+ *  Author       : Ajustado por experto en vtiger
  ************************************************************************************/
 $languageStrings = array(
-	'Events'                       => 'Eventos',
-	'SINGLE_Events'                => 'Evento',
-	'LBL_ADD_RECORD'               => 'Añadir Evento',
-	'LBL_RECORDS_LIST'             => 'Vista de Lista',
-	'LBL_EVENTS'                   => 'Eventos',
-	'LBL_TODOS'                    => 'Tarea',
-	'LBL_EVENT_INFORMATION'        => 'Detalles del Evento',
-	'LBL_RECURRENCE_INFORMATION'   => 'Detalles Recurrencia',
-	'Start Date & Time'            => 'Fecha y Hora de Inicio',
-	'Recurrence'                   => 'Eventos Recurrentes',
-	'Send Notification'            => 'Enviar notificación',
-	'Location'                     => 'Localización',
-	'Send Reminder'                => 'Enviar Recordatorio',
-	'End Date & Time'              => 'Fecha y Hora de Fin',
-    'End Date'                     => 'Fecha y Hora de Fin',
-	'Activity Type'                => 'Tipo de Evento',
-	'Visibility'                   => 'Visibilidad',
-	'Private'                      => 'Privado',
-	'Public'                       => 'Público',
-	'Call'                         => 'Llamada',
-	'Meeting'                      => 'Reunión',
-	'Planned'                      => 'Planeado',
-	'Held'                         => 'Realizada',
-	'Not Held'                     => 'Pendiente',
-    'Related To'                   => 'En relación con',
-	'LBL_DAYS'                     => 'Días',
-	'LBL_HOURS'                    => 'Horas',
-	'LBL_CALENDAR_VIEW'            => 'Vista de Calendario',
-	'LBL_HOLD_FOLLOWUP_ON'         => 'Mantenga Seguimiento On',
-    'LBL_CREATE_FOLLOWUP_EVENT'    => 'Crear Seguimiento de eventos',
-	'LBL_RELATED_TO' => 'Relacionado con',
-	'LBL_DAYS_TYPE' => 'Día(s)',
-	'LBL_WEEKS_TYPE' => 'Semana(s)',
-	'LBL_MONTHS_TYPE' => 'Mes(es)',
-	'LBL_YEAR_TYPE' => 'Año',
-	'LBL_FIRST' => 'Primer',
-	'LBL_LAST' => 'Ultimo',
-	'LBL_SM_SUN' => 'Dom',
-	'LBL_SM_MON' => 'Lun',
-	'LBL_SM_TUE' => 'Mar',
-	'LBL_SM_WED' => 'Mié',
-	'LBL_SM_THU' => 'Jue',
-	'LBL_SM_FRI' => 'Vie',
-	'LBL_SM_SAT' => 'Sab',
-	'LBL_DAY0' => 'Domingo',
-	'LBL_DAY1' => 'Lunes',
-	'LBL_DAY2' => 'Martes',
-	'LBL_DAY3' => 'Miércoles',
-	'LBL_DAY4' => 'Jueves',
-	'LBL_DAY5' => 'Vierne',
-	'LBL_DAY6' => 'Sábado',
-	'Daily' => 'Día(s)',
-	'Weekly' => 'Semana(s)',
-	'Monthly' => 'Mes(es)',
-	'Yearly' => 'Año',
-	'LBL_REPEATEVENT' => 'Una vez en cada',
-	'LBL_UNTIL' => 'Hasta',
-	'LBL_DAY_OF_THE_MONTH' => 'díay del mes',
-	'LBL_ON' => 'en',
-	'LBL_INVITE_USER_BLOCK' => 'Invita',
-	'LBL_INVITE_USERS' => 'Invita Usuarios',
-	'LBL_INVITE_PEOPLE' => 'Invitar a la gente',
+    'Events'                     => 'Eventos',
+    'SINGLE_Events'              => 'Evento',
+    'LBL_ADD_RECORD'             => 'Añadir evento',
+    'LBL_RECORDS_LIST'           => 'Lista de eventos',
+    'LBL_EVENTS'                 => 'Eventos',
+    'LBL_TODOS'                  => 'Tareas',
+    'LBL_EVENT_INFORMATION'      => 'Detalles del evento',
+    'LBL_RECURRENCE_INFORMATION' => 'Detalles de recurrencia',
 
-  'INVITATION' => ' Invitación ',
-  'Busy' => 'Ocupado',
+    'Start Date & Time'          => 'Fecha y hora de inicio',
+    'End Date & Time'            => 'Fecha y hora de fin',
+    'End Date'                   => 'Fecha de fin',
+    'Recurrence'                 => 'Recurrente',
+    'Send Notification'          => 'Enviar notificación',
+    'Send Reminder'              => 'Enviar recordatorio',
+    'Location'                   => 'Ubicación',
+    'Activity Type'              => 'Tipo de evento',
+    'Visibility'                 => 'Visibilidad',
+    'Private'                    => 'Privado',
+    'Public'                     => 'Público',
+    'Related To'                 => 'Relacionado con',
 
+    'Call'                       => 'Llamada',
+    'Meeting'                    => 'Reunión',
+    'Planned'                    => 'Planeado',
+    'Held'                       => 'Realizado',
+    'Not Held'                   => 'No realizado',
+
+    'LBL_DAYS'                   => 'Días',
+    'LBL_HOURS'                  => 'Horas',
+    'LBL_CALENDAR_VIEW'          => 'Vista de calendario',
+    'LBL_HOLD_FOLLOWUP_ON'       => 'Programar seguimiento en',
+    'LBL_CREATE_FOLLOWUP_EVENT'  => 'Crear evento de seguimiento',
+
+    'LBL_DAYS_TYPE'              => 'Día(s)',
+    'LBL_WEEKS_TYPE'             => 'Semana(s)',
+    'LBL_MONTHS_TYPE'            => 'Mes(es)',
+    'LBL_YEAR_TYPE'              => 'Año(s)',
+
+    'LBL_FIRST'                  => 'Primero',
+    'LBL_LAST'                   => 'Último',
+    'LBL_UNTIL'                  => 'Hasta',
+
+    'LBL_SM_SUN'                 => 'Dom',
+    'LBL_SM_MON'                 => 'Lun',
+    'LBL_SM_TUE'                 => 'Mar',
+    'LBL_SM_WED'                 => 'Mié',
+    'LBL_SM_THU'                 => 'Jue',
+    'LBL_SM_FRI'                 => 'Vie',
+    'LBL_SM_SAT'                 => 'Sáb',
+
+    'LBL_DAY0'                   => 'Domingo',
+    'LBL_DAY1'                   => 'Lunes',
+    'LBL_DAY2'                   => 'Martes',
+    'LBL_DAY3'                   => 'Miércoles',
+    'LBL_DAY4'                   => 'Jueves',
+    'LBL_DAY5'                   => 'Viernes',
+    'LBL_DAY6'                   => 'Sábado',
+
+    'Daily'                      => 'Diario',
+    'Weekly'                     => 'Semanal',
+    'Monthly'                    => 'Mensual',
+    'Yearly'                     => 'Anual',
+
+    'LBL_REPEATEVENT'            => 'Repetir cada',
+    'LBL_DAY_OF_THE_MONTH'       => 'día del mes',
+    'LBL_ON'                     => 'en',
+
+    'LBL_INVITE_USER_BLOCK'      => 'Invitar',
+    'LBL_INVITE_USERS'           => 'Invitar usuarios',
+    'LBL_INVITE_PEOPLE'          => 'Invitar personas',
+
+    'INVITATION'                 => 'Invitación',
+    'Busy'                       => 'Ocupado',
+);
+
+$jsLanguageStrings = array(
+    // No hay cadenas JS específicas para este módulo
 );

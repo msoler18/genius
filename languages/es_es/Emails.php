@@ -8,51 +8,48 @@
  * Portions created by JPL TSolucio, S.L. are Copyright (C) jpl tsolucio.
  * All Rights Reserved.
  * ********************************************************************************
- *  Language     : Español es_es
+ *  Language     : Español (Colombia) es_co
  *  Version      : 6.0.0
  *  Created Date : 2012-10-25
  *  Author       : JPL TSolucio, S. L. Joe Bordes
- *  Last change  : 2013-05-03
- *  Author       : JPL TSolucio, S. L. Joe Bordes
+ *  Last change  : 2025-06-21
+ *  Author       : Ajustado por experto en vtiger
  ************************************************************************************/
 $languageStrings = array(
-	'LBL_SELECT_EMAIL_IDS'         => 'Selecciona las direcciones de Email',
-	'LBL_SUBJECT'                  => 'Asunto',
-	'LBL_ATTACHMENT'               => 'Adjunto',
-	'LBL_BROWSE_CRM'               => 'Navegar CRM',
-	'LBL_SEND'                     => 'Enviar',
-	'LBL_SAVE_AS_DRAFT'            => 'Guardar Borrador',
-	'LBL_SELECT_EMAIL_TEMPLATE'    => 'Selecciona la plantilla de Email' ,
-	'LBL_COMPOSE_EMAIL'            => 'Redactar Correo',
-	'LBL_CC'                       => 'Cc',
-	'LBL_BCC'                      => 'Bcc',
-	'LBL_ADD_CC'                   => 'Añadir Cc',
-	'LBL_ADD_BCC'                  => 'Añadir Bcc',
-	'LBL_MAX_UPLOAD_SIZE'          => 'El tamaño máximo de subida es',
-	'LBL_EXCEEDED'                 => 'Excedido',
-	'SINGLE_Emails' => 'Email',
-	'Emails' => 'Emails',
-	'LBL_GO_TO_PREVIEW' => 'Previsualización',
-	'LBL_TO' => 'A',
-	'LBL_FORWARD' => 'Reenviar',
-	'LBL_PRINT' => 'Imprimir',
-	'LBL_DESCRIPTION' => 'Descripción',
-	'LBL_FROM' => 'De',
-	'LBL_INFO' => 'Info',
-	'LBL_DRAFTED_ON' => 'Borrador del',
-	'LBL_SENT_ON' => 'Enviado el',
-	'LBL_OWNER' => 'Proietario',
-	'Date & Time Sent' => 'Fecha Envío',
-    'Time Start'       => 'Hora de envío',
-    'LBL_EMAIL_INFORMATION' => 'Información E-mail',
-    'LBL_EMAILTEMPLATE_WARNING'    => '¿Sus etiquetas de combinación corregir',
-    'LBL_EMAILTEMPLATE_WARNING_CONTENT' => 'Por favor, asegúrese de que la plantilla que ha seleccionado tiene fusionar las etiquetas pertinentes para el registro del destinatario. 
-                                            Si va a enviar un correo electrónico a plomo, pero los de combinación-tags pertenece al módulo de contacto (por ejemplo: $contacts-lastname$), 
-                                            entonces no se fusionarán los valores.',
-	'Draft' => 'Borrador',
-    'Parent ID' => 'Registro de Padres',
+    'LBL_SELECT_EMAIL_IDS'         => 'Seleccionar correos electrónicos',
+    'LBL_SUBJECT'                  => 'Asunto',
+    'LBL_ATTACHMENT'               => 'Adjunto',
+    'LBL_BROWSE_CRM'               => 'Explorar CRM',
+    'LBL_SEND'                     => 'Enviar',
+    'LBL_SAVE_AS_DRAFT'            => 'Guardar como borrador',
+    'LBL_SELECT_EMAIL_TEMPLATE'    => 'Seleccionar plantilla de correo',
+    'LBL_COMPOSE_EMAIL'            => 'Redactar correo',
+    'LBL_CC'                       => 'Cc',
+    'LBL_BCC'                      => 'Cco',
+    'LBL_ADD_CC'                   => 'Añadir Cc',
+    'LBL_ADD_BCC'                  => 'Añadir Cco',
+    'LBL_MAX_UPLOAD_SIZE'          => 'Tamaño máximo de carga:',
+    'LBL_EXCEEDED'                 => 'Excedido',
+    'SINGLE_Emails'                => 'Correo',
+    'Emails'                       => 'Correos',
+    'LBL_GO_TO_PREVIEW'            => 'Ir a vista previa',
+    'LBL_TO'                       => 'Para',
+    'LBL_FORWARD'                  => 'Reenviar',
+    'LBL_PRINT'                    => 'Imprimir',
+    'LBL_DESCRIPTION'              => 'Descripción',
+    'LBL_FROM'                     => 'De',
+    'LBL_INFO'                     => 'Información',
+    'LBL_DRAFTED_ON'               => 'Borrador el',
+    'LBL_SENT_ON'                  => 'Enviado el',
+    'LBL_OWNER'                    => 'Propietario',
+    'Date & Time Sent'             => 'Fecha y hora de envío',
+    'Time Start'                   => 'Hora de envío',
+    'LBL_EMAIL_INFORMATION'        => 'Información del correo',
+    'LBL_EMAILTEMPLATE_WARNING'    => 'Advertencia de etiquetas de combinación',
+    'LBL_EMAILTEMPLATE_WARNING_CONTENT' => 'Asegúrate de que la plantilla seleccionada contiene las etiquetas de combinación correspondientes al módulo del destinatario. Por ejemplo, si envías a un prospecto y la plantilla usa $contacts-lastname$, estas etiquetas no se fusionarán.',
+    'Draft'                        => 'Borrador',
+    'Parent ID'                    => 'ID de registro padre',
 );
-
 $jsLanguageStrings = array(
-    'JS_WARNING' => 'advertencia',
+    'JS_WARNING'                   => 'Advertencia',
 );
