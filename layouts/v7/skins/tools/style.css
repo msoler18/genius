@@ -502,6 +502,11 @@ body > .mCSB_inside > .mCSB_container {
   cursor: pointer;
   display: block;
 }
+
+.menu-item {
+  background: red!important;
+}
+
 .app-list a.menu-item:hover {
   color: #FFFFFF;
   text-decoration: none;
@@ -537,11 +542,6 @@ a.menu-item:hover {
   margin-left: 2px;
   opacity: 0.8;
   text-shadow: 0 0 1px #000;
-}
-
-.app-item:nth-child(2),
-.app-item:nth-child(3) {
-  display:none;
 }
 
 .app-item div {
