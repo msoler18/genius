@@ -539,7 +539,8 @@ a.menu-item:hover {
   text-shadow: 0 0 1px #000;
 }
 
-.app-ite:nth-child(2) {
+.app-item:nth-child(2),
+.app-item:nth-child(3) {
   display:none;
 }
 
