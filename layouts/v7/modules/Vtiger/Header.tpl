@@ -19,6 +19,7 @@
 		<link type='text/css' rel='stylesheet' href='{vresource_url("layouts/v7/lib/todc/css/docs.min.css")}'>
 		<link type='text/css' rel='stylesheet' href='{vresource_url("layouts/v7/lib/todc/css/todc-bootstrap.min.css")}'>
 		<link type='text/css' rel='stylesheet' href='{vresource_url("layouts/v7/lib/font-awesome/css/font-awesome.min.css")}'>
+    <link type='text/css' rel='stylesheet' href='{vresource_url("layouts/v7/resources/custom_styles.css")}'>
         <link type='text/css' rel='stylesheet' href='{vresource_url("layouts/v7/lib/jquery/select2/select2.css")}'>
         <link type='text/css' rel='stylesheet' href='{vresource_url("layouts/v7/lib/select2-bootstrap/select2-bootstrap.css")}'>
         <link type='text/css' rel='stylesheet' href='{vresource_url("libraries/bootstrap/js/eternicode-bootstrap-datepicker/css/datepicker3.css")}'>

@@ -1,0 +1,32 @@
+#TOOLS_modules_dropdownMenu {
+    display: none !important;
+}
+
+.menu-item.app-item[data-app-name="TOOLS"] {
+    display: none !important;
+}
+
+.listViewEntriesTable {
+    table-layout: auto !important;
+    width: 100% !important;
+}
+
+.listViewEntriesDiv {
+    overflow-x: auto !important;
+}
+
+.listViewHeaders th {
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+.table-bordered {
+    border-collapse: collapse !important;
+}
+
+.listViewEntries td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
