@@ -60,6 +60,7 @@ button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"],
   )!important;
   background-image: -moz-linear-gradient(top, #c61218 0%, #c61218 100%)!important;
   background-image: linear-gradient(to bottom, #c61218 0%, #c61218 100%)!important;
+  border:1px solid #c61218!important;
 }
 
 .emptyRecordsContent a {
