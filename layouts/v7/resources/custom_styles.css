@@ -30,3 +30,15 @@
     text-overflow: ellipsis;
     max-width: 200px;
 }
+
+.menu-item.app-item.app-item-misc[data-default-url="index.php?module=ExtensionStore&parent=Settings&view=ExtensionStore"] {
+  display:none!important;
+}
+
+#Accounts_basicAction_LBL_IMPORT {
+  display: none!important;
+}
+
+button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"] {
+  display: none!important;
+}
