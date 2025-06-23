@@ -84,7 +84,7 @@
 												{if !empty($IMAGE_PATH)}
 													<img src="{$IMAGE_PATH}" width="100%" height="100%" align="left">
 												{else}
-													<div class="name"><span><strong> {$CREATOR_NAME|mb_substr:0:2|escape:"html"} </strong></span></div>
+													<div class="name"><span><strong> {$CREATOR_NAME|truncate:2:"":true|escape:"html"} </strong></span></div>
 												{/if}
 											</div>
 										</div>

@@ -37,7 +37,9 @@ button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"],
 #menubar_item_right_LBL_MY_PREFERENCES,
 #Quotes_basicAction_LBL_IMPORT,
 #Potentials_basicAction_LBL_IMPORT,
-#Invoice_basicAction_LBL_IMPORT
+#Invoice_basicAction_LBL_IMPORT,
+#Campaigns_basicAction_LBL_IMPORT,
+#Products_basicAction_LBL_IMPORT,
 .menu-item.app-item-misc[data-default-url*="ExtensionStore"],
 .menu-item.app-item-misc[data-default-url^="index.php?module=ExtensionStore"],
 .menu-item.app-item-misc[data-default-url$="view=ExtensionStore"],
@@ -51,5 +53,5 @@ button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"],
 }
 
 .emptyRecordsContent a {
-  background-color: #c61218!important;
+  color: #c61218!important;
 }
