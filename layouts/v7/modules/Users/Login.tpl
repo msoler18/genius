@@ -234,7 +234,7 @@
 							<label>Password</label>
 						</div>
 						<div class="group">
-							<button type="submit" class="button buttonBlue">Sign in</button><br>
+							<button type="submit" class="button buttonBlue">Iniciar sesión</button><br>
 							<a class="forgotPasswordLink" style="color: #15c;">forgot password?</a>
 						</div>
 					</form>

@@ -32,7 +32,7 @@
 }
 
 button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"],
-#Accounts_basicAction_LBL_IMPORT
+#Accounts_basicAction_LBL_IMPORT,
 #Contacts_basicAction_LBL_IMPORT,
 #menubar_item_right_LBL_MY_PREFERENCES,
 #Quotes_basicAction_LBL_IMPORT,
@@ -44,12 +44,22 @@ button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"],
 .menu-item.app-item-misc[data-default-url^="index.php?module=ExtensionStore"],
 .menu-item.app-item-misc[data-default-url$="view=ExtensionStore"],
 .app-list-divider + .menu-item.app-item-misc,
-.profile-container h4{
+.profile-container h4,
+.showMap {
   display: none!important;
 }
 
 .btn-success {
   background-color: #c61218!important;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c61218),
+    to(#c61218)
+  )!important;
+  background-image: -moz-linear-gradient(top, #c61218 0%, #c61218 100%)!important;
+  background-image: linear-gradient(to bottom, #c61218 0%, #c61218 100%)!important;
 }
 
 .emptyRecordsContent a {
