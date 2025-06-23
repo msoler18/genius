@@ -39,6 +39,9 @@ button.btn.btn-default.module-buttons.dropdown-toggle[title="Configuración"],
 #Potentials_basicAction_LBL_IMPORT,
 #Invoice_basicAction_LBL_IMPORT
 .menu-item.app-item-misc[data-default-url*="ExtensionStore"],
+.menu-item.app-item-misc[data-default-url^="index.php?module=ExtensionStore"],
+.menu-item.app-item-misc[data-default-url$="view=ExtensionStore"],
+.app-list-divider + .menu-item.app-item-misc,
 .profile-container h4{
   display: none!important;
 }
