@@ -124,9 +124,9 @@
 													{if $COMMENT_CONTENT}
 														{assign var=DISPLAYNAME value={decode_html($COMMENT_CONTENT)}}
 														{assign var=MAX_LENGTH value=200}
-														<span class="commentInfoContent" data-maxlength="{$MAX_LENGTH}" style="display: block" data-fullComment="{$COMMENT_CONTENT|escape:"html"}" data-shortComment="{$DISPLAYNAME|mb_substr:0:200|escape:"html"}..." data-more='{vtranslate('LBL_SHOW_MORE',$MODULE)}' data-less='{vtranslate('LBL_SHOW',$MODULE)} {vtranslate('LBL_LESS',$MODULE)}'>
+														<span class="commentInfoContent" data-maxlength="{$MAX_LENGTH}" style="display: block" data-fullComment="{$COMMENT_CONTENT|escape:"html"}" data-shortComment="{$DISPLAYNAME|truncate:200:"":true|escape:"html"}..." data-more='{vtranslate('LBL_SHOW_MORE',$MODULE)}' data-less='{vtranslate('LBL_SHOW',$MODULE)} {vtranslate('LBL_LESS',$MODULE)}'>
 															{if $DISPLAYNAME|count_characters:true gt $MAX_LENGTH}
-																{mb_substr(trim($DISPLAYNAME),0,$MAX_LENGTH)}...
+																{$DISPLAYNAME|trim|truncate:$MAX_LENGTH:"":true}...
 																<a class="pull-right toggleComment showMore" style="color: blue;"><small>{vtranslate('LBL_SHOW_MORE',$MODULE)}</small></a>
 															{else}
 																{$COMMENT_CONTENT}
