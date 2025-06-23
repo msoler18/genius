@@ -824,3 +824,40 @@ body{
     height: 1px;
 }
 
+/* Ocultar el menú de Configuración (TOOLS) */
+#TOOLS_modules_dropdownMenu {
+    display: none !important;
+}
+
+/* Alternativa más específica si la anterior no funciona */
+.menu-item.app-item[data-app-name="TOOLS"] {
+    display: none !important;
+}
+
+/* Fix para la tabla de usuarios - hacer scroll horizontal si es necesario */
+.listViewEntriesTable {
+    table-layout: auto !important;
+    width: 100% !important;
+}
+
+.listViewEntriesDiv {
+    overflow-x: auto !important;
+}
+
+/* Ajustar ancho de columnas en la vista de usuarios */
+.listViewHeaders th {
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+/* Mejorar la vista de la tabla */
+.table-bordered {
+    border-collapse: collapse !important;
+}
+
+.listViewEntries td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
